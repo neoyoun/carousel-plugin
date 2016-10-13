@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+  <meta http-equipv="X-UA-Compatible" content="ie=edge">
+	<title>carousel plugin</title>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/carousel.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="carousel slide" id="myCarousel">
+			<div class="slide-list" role="list-box">
+				<div class="slide-item" data-slide-index=1>
+					<h2>slide-item1</h2>
+				</div>
+				<div class="slide-item" data-slide-index=2>
+					<h2>slide-item2</h2>
+				</div>
+				<div class="slide-item" data-slide-index=3>
+					<h2>slide-item3</h2>
+				</div>
+			</div>
+			<ol class="indicators" role="indicators">
+				<li class="indicator-unit"></li>
+			</ol>
+			<a class="control prev-btn" data-slide="prev">&lsaquo;</a>
+			<a class="control next-btn" data-slide="next">&rsaquo;</a>
+		</div>
+	</div>
+	
+	<script src="./js/carousel.js"></script>
+	<script>
+		document.querySelector('#myCarousel').slide();
+	</script>
+	
+</body>
+</html>

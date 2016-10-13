@@ -1,0 +1,15 @@
+@mixin imgratioCalc($width,$height){
+	position: relative;
+	padding: $height/$width*50%;
+}
+@mixin controlPosCalc($width,$height){
+	padding-top: $height/$width*50%;
+	margin-top: -.5em;
+}
+@mixin strenchFull(){
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0
+}

@@ -1,0 +1,14 @@
+{
+  "name": "carousel-plugin",
+  "version": "1.0.0",
+  "description": "'A carousel plugin support touch event'",
+  "main": "index.js",
+  "author": "neoyoun",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.16.0"
+  }
+}
