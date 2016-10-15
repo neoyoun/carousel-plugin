@@ -8,6 +8,9 @@
   "dependencies": {
     "normalize.css": "^5.0.0"
   },
+  "scripts":{
+    "build":"babel js/carousel-es6.js -o js/carousel.js"
+  },
   "devDependencies": {
     "babel-preset-es2015": "^6.16.0"
   }
